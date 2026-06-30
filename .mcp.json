@@ -1,0 +1,9 @@
+{
+  "_comment": "EasyEsuite ERP MCP server.",
+  "mcpServers": {
+    "easyesuite": {
+      "type": "http",
+      "url": "https://ai-v2-api-680730189601.us-central1.run.app/mcp/mcp"
+    }
+  }
+}

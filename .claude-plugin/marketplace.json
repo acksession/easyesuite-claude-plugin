@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "easyesuite",
+  "owner": {
+    "name": "EasyEsuite",
+    "email": "admin@easyesuite.com"
+  },
+  "description": "Official EasyEsuite marketplace — operate the EasyEsuite ERP from Claude.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "easyesuite",
+      "displayName": "EasyEsuite ERP",
+      "source": ".",
+      "description": "Operate the EasyEsuite ERP from Claude — run sales, inventory, purchasing and financial reports and drive end-to-end workflows: sales orders, fulfillment, purchasing, invoicing, returns and marketplace connectors. Each user signs in with their EasyEsuite account; every action is authorized by their real role.",
+      "version": "0.1.0",
+      "author": {
+        "name": "EasyEsuite",
+        "email": "admin@easyesuite.com"
+      },
+      "homepage": "https://easyesuite.com",
+      "repository": "https://github.com/acksession/easyesuite-claude-plugin",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "keywords": [
+        "easyesuite",
+        "erp",
+        "ecommerce",
+        "inventory",
+        "sales-orders",
+        "marketplace",
+        "reporting",
+        "purchasing",
+        "invoicing",
+        "fulfillment",
+        "workflow"
+      ]
+    }
+  ]
+}
